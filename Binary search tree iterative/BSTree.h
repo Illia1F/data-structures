@@ -29,12 +29,12 @@ class BST
 		return _pointer;
 	}
 	int FindMin(BST_Node* _p)
-       {
+        {
         while (_p != NULL && _p->_left != NULL)
             _p = _p->_left;
 
         return _p ? _p->key : Not_found;
-       }
+        }
 public:
 	BST() : _root(NULL), _size(0)
 	{}
