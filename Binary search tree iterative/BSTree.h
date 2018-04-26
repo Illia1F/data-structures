@@ -43,7 +43,7 @@ public:
 	bool Add(int);
 	int Find(int)const;
 	int Delete(int);
-    int FindMin();
+        int FindMin();
 	void Clear();
 };
 
